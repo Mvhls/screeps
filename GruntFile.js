@@ -6,15 +6,18 @@ module.exports = function(grunt) {
       options: {
         separator: ';',
       },
-      dist: {
+      main: {
         src: [
           'app/main.js',
-          'app/modules/role.builder.js', 
-          'app/modules/role.harvester.js',
-          'app/modules/role.upgrader.js'
         ],
-        dest: 'dist/built.js',
+        dest: 'dist/main.js',
       },
+      modules: {
+        src: [
+          'app/modules/roleHarvester.js',
+          'app/modules/loader.js'],
+        dest: 'dist/modules.js',
+      }
     },
   });
 
