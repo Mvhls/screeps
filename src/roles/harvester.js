@@ -5,7 +5,7 @@ var harvester = {
     run: harvesters => {
         console.log("harvester's running: " + harvesters?.length);
         harvesters.forEach(harvester => {
-            console.log("harvester: " + harvester);
+            harvest(harvester);
         })
         
     },
@@ -18,7 +18,30 @@ var harvester = {
 }
 
 var harvest = (harvester) => {
-
+    if(harvester)
+        {
+            if(harvester.store.getFreeCapacity() > 0) {
+                var sources = harvester.room.find(constants.findSources);
+                if(harvester.harvest(sources[0]) == constants.errorNotInRange) {
+                    harvester.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+                }
+            }
+            else {
+                var targets = harvester.room.find(constants.findStructures, {
+                        filter: (structure) => {
+                            return (structure.structureType == constants.structureExtension ||
+                                    structure.structureType == constants.structureSpawn ||
+                                    structure.structureType == constants.structureTower) && 
+                                    structure.store.getFreeCapacity(constants.resourceEnergy) > 0;
+                        }
+                });
+                if(targets.length > 0) {
+                    if(harvester.transfer(targets[0], constants.resourceEnergy) == constants.errorNotInRange) {
+                        harvester.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'}});
+                    }
+                }
+            }
+        }
 }
 
 module.exports = harvester;
