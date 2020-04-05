@@ -10,6 +10,7 @@ module.exports = function(grunt) {
                 applib: { 
                     src: [ 
                         'app/modules/constants.js',
+                        'app/modules/utilities/random.js',
                         'app/modules/creeps/creepFactory.js',
                         'app/modules/tasks/creepSpawner.js',
                         'app/modules/creeps/roleHarvester.js',

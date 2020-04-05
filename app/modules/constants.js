@@ -1,4 +1,4 @@
 var constants = {
-    spawn1: "spawn1",
+    spawn1: "Spawn1",
     harvester: "harvester"
 }

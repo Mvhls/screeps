@@ -1,13 +1,10 @@
 var creepSpawner = {
     spawnCreeps: function() {
-        var harvesters;
-        if(Game.creep)
+        var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == constants.harvester);
+        console.log("harvesters: ", harvesters);
+        if(!(Array.isArray(harvesters) && harvesters.length))
         {
-            harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
-        }
-        if(!harvesters)
-        {
-            console.log("none");
+            creepFactory.spawnHarvester();
         }
     }
 }
