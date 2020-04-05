@@ -1,6 +1,7 @@
 var modules = {
-    run: function()
-    {
+    run: function () {
+        creepSpawner.spawnCreeps();
+
         roleHarvester.run();
     }
 }
