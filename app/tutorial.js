@@ -13,10 +13,13 @@ module.exports.loop = function () {
 
     // filter harvesters
     var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
-    console.log('Harvesters: ' + harvesters.length);
-
+    if(harvesters)
+    {
+        console.log('Harvesters: ' + harvesters.length);
+    }
+    
     // respawn harvesters by finite amount
-    if(harvesters.length < 2) {
+    if(!harvesters || harvesters.length < 2) {
         var newName = 'Harvester' + Game.time;
         console.log('Spawning new harvester: ' + newName);
         Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE], newName, 
