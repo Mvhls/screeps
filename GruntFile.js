@@ -13,7 +13,7 @@ module.exports = function(grunt) {
           'app/modules/role.harvester.js',
           'app/modules/role.upgrader.js'
         ],
-        dest: 'output/built.js',
+        dest: 'dist/built.js',
       },
     },
   });
