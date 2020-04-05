@@ -1,8 +1,8 @@
-var test = require('./test');
+var roles = require('./roles/roles');
 
 var screeps = {
-    run: function() {
-        test.run();
+    run: function(game) {
+        roles.harvester.run(game);
     }
 }
 
