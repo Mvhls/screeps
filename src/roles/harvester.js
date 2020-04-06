@@ -2,6 +2,7 @@ var constants = require('../static/constants');
 var utilities = require('../static/utilities');
 
 var harvester = {
+    /** @param {Creep} creep **/
     run: harvesters => {
         console.log("harvester's running: " + harvesters?.length);
         harvesters.forEach(harvester => {

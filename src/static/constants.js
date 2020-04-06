@@ -1,6 +1,8 @@
 var constants = {
     spawn1: "Spawn1",
     harvester: "harvester",
+    upgrader: "upgrader",
+    builder: "builder",
     work: WORK,
     carry: CARRY,
     move: MOVE,
