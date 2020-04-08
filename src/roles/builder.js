@@ -37,8 +37,9 @@ var build = creep => {
     }
     else {
         var sources = creep.room.find(constants.findSources);
-        if (creep.harvest(sources[0]) == constants.errorNotInRange) {
-            creep.moveTo(sources[0], { visualizePathStyle: { stroke: '#ffaa00' } });
+        var closest = _.sortBy(sources, s => creep.pos.getRangeTo(s))
+        if (creep.harvest(closest[0]) == constants.errorNotInRange) {
+            creep.moveTo(closest[0], { visualizePathStyle: { stroke: '#ffaa00' } });
         }
     }
 }

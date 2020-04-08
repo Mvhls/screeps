@@ -18,7 +18,7 @@ var upgrader = {
 }
 
 var upgrade = upgrader => {
-    // if upgrading, but energy is empty, switch to harvest mode
+    // if energy is empty, switch to harvest mode
     if (upgrader.memory.upgrading && upgrader.store[constants.resourceEnergy] == 0) {
         upgrader.memory.upgrading = false;
         upgrader.say('🔄 harvest');
