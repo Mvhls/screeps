@@ -12,12 +12,12 @@ var roles = {
         console.log("upgraders: ", upgraders?.length);
 
         // spawn harvesters
-        if (harvesters?.length < 1) {
+        if (harvesters?.length < 2) {
             harvester.spawnHarvester(game);
         }
 
         // spawn upgraders
-        if(harvesters?.length >= 1 && upgraders?.length < 1) {
+        if(harvesters?.length >= 2 && upgraders?.length < 2) {
             upgrader.spawnUpgrader(game);
         }
 
