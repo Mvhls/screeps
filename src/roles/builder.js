@@ -18,11 +18,14 @@ var builder = {
 }
 
 var build = creep => {
-    if (creep.memory.building && creep.store[constants.resourceEnergy] == 0) {
+    if (creep.store[constants.resourceEnergy] == 0) {
         creep.memory.building = false;
+        creep.memory.upgrading = false;
+        creep.memory.harvesting = true;
         creep.say('🔄 harvest');
     }
-    if (!creep.memory.building && creep.store.getFreeCapacity() == 0) {
+    if (!creep.memory.building && !creep.memory.upgrading && creep.store.getFreeCapacity() == 0) {
+        creep.memory.harvesting = false;
         creep.memory.building = true;
         creep.say('🚧 build');
     }
@@ -34,12 +37,25 @@ var build = creep => {
                 creep.moveTo(targets[0], { visualizePathStyle: { stroke: '#ffffff' } });
             }
         }
+        else
+        {
+            creep.memory.building = false;
+            creep.memory.upgrading = true;
+        }
     }
-    else {
+
+    if (creep.memory.upgrading)
+    {
+        if (creep.upgradeController(creep.room.controller) == constants.errorNotInRange) {
+            creep.moveTo(creep.room.controller, { visualizePathStyle: { stroke: '#ffffff' } });
+        }
+    }
+
+    if (creep.memory.harvesting) {
         var sources = creep.room.find(constants.findSources);
-        var closest = _.sortBy(sources, s => creep.pos.getRangeTo(s))
-        if (creep.harvest(closest[0]) == constants.errorNotInRange) {
-            creep.moveTo(closest[0], { visualizePathStyle: { stroke: '#ffaa00' } });
+        // var closest = _.sortBy(sources, s => creep.pos.getRangeTo(s))
+        if (creep.harvest(sources[1]) == constants.errorNotInRange) {
+            creep.moveTo(sources[1], { visualizePathStyle: { stroke: '#ffaa00' } });
         }
     }
 }

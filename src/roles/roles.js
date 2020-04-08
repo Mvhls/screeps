@@ -25,7 +25,7 @@ var roles = {
         }
 
         // spawn builders
-        if(harvesters?.length >= 2 && upgraders?.length >= 2 && builders?.length < 3) {
+        if(harvesters?.length >= 2 && upgraders?.length >= 2 && builders?.length < 1) {
             builder.spawnBuilder(game);
         }
 
