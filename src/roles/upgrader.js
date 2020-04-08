@@ -18,20 +18,25 @@ var upgrader = {
 }
 
 var upgrade = upgrader => {
+    // if upgrading, but energy is empty, switch to harvest mode
     if (upgrader.memory.upgrading && upgrader.store[constants.resourceEnergy] == 0) {
         upgrader.memory.upgrading = false;
         upgrader.say('🔄 harvest');
     }
+    // if harvesting and full, switch to upgrading mode
     if (!upgrader.memory.upgrading && upgrader.store.getFreeCapacity() == 0) {
         upgrader.memory.upgrading = true;
         upgrader.say('⚡ upgrade');
     }
 
+    // if in upgrading mode, find structure to upgrade
     if (upgrader.memory.upgrading) {
         if (upgrader.upgradeController(upgrader.room.controller) == constants.errorNotInRange) {
             upgrader.moveTo(upgrader.room.controller, { visualizePathStyle: { stroke: '#ffffff' } });
         }
     }
+
+    // if in harvesting mode, got get resources
     else {
         var sources = upgrader.room.find(constants.findSources);
         if (upgrader.harvest(sources[0]) == constants.errorNotInRange) {

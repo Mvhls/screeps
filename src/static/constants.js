@@ -8,6 +8,7 @@ var constants = {
     move: MOVE,
     findSources: FIND_SOURCES,
     findStructures: FIND_STRUCTURES,
+    findConstructionSites: FIND_CONSTRUCTION_SITES,
     structureExtension: STRUCTURE_EXTENSION,
     structureSpawn: STRUCTURE_SPAWN,
     structureTower: STRUCTURE_TOWER,
