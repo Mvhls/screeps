@@ -9,6 +9,8 @@ var site = {
     // list of all structures in site, 
     // possibly do both existing structures, and coordinates of where the structure should be.
     // doesn't need to be every structure? possibly just important ones used in jobs
+    // in the future, maybe this can describe a structure configuration
+    // for example, a set of extensions and roads
     structures: [
         {
             name: "container-1",
