@@ -1,0 +1,519 @@
+{
+    "creeps": {
+        "builder_1f47bc41-8376-4f0b-9255-787c9b0897f1": {
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 19,
+                "y": 22,
+                "roomName": "E44S29"
+            },
+            "id": "5e8e75561925731f2a3aebcb",
+            "name": "builder_1f47bc41-8376-4f0b-9255-787c9b0897f1",
+            "body": [
+                {
+                    "type": "work",
+                    "hits": 100
+                },
+                {
+                    "type": "carry",
+                    "hits": 100
+                },
+                {
+                    "type": "move",
+                    "hits": 100
+                }
+            ],
+            "my": true,
+            "owner": {
+                "username": "miffles"
+            },
+            "spawning": false,
+            "ticksToLive": 94,
+            "carryCapacity": 50,
+            "carry": {
+                "energy": 4
+            },
+            "store": {
+                "energy": 4
+            },
+            "fatigue": 0,
+            "hits": 300,
+            "hitsMax": 300
+        },
+        "upgrader_a9dc2902-30b2-49ae-9d6f-e49df9420305": {
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 12,
+                "y": 28,
+                "roomName": "E44S29"
+            },
+            "id": "5e8e77acc8154b4f834e78da",
+            "name": "upgrader_a9dc2902-30b2-49ae-9d6f-e49df9420305",
+            "body": [
+                {
+                    "type": "work",
+                    "hits": 100
+                },
+                {
+                    "type": "carry",
+                    "hits": 100
+                },
+                {
+                    "type": "move",
+                    "hits": 100
+                }
+            ],
+            "my": true,
+            "owner": {
+                "username": "miffles"
+            },
+            "spawning": false,
+            "ticksToLive": 294,
+            "carryCapacity": 50,
+            "carry": {
+                "energy": 20
+            },
+            "store": {
+                "energy": 20
+            },
+            "fatigue": 0,
+            "hits": 300,
+            "hitsMax": 300
+        },
+        "harvester_dccd3fbf-0c8c-4b18-950a-dc07d3039a9c": {
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 10,
+                "y": 28,
+                "roomName": "E44S29"
+            },
+            "id": "5e8e78d9c21b2df47b8028b4",
+            "name": "harvester_dccd3fbf-0c8c-4b18-950a-dc07d3039a9c",
+            "body": [
+                {
+                    "type": "work",
+                    "hits": 100
+                },
+                {
+                    "type": "carry",
+                    "hits": 100
+                },
+                {
+                    "type": "move",
+                    "hits": 100
+                }
+            ],
+            "my": true,
+            "owner": {
+                "username": "miffles"
+            },
+            "spawning": false,
+            "ticksToLive": 394,
+            "carryCapacity": 50,
+            "carry": {},
+            "store": {},
+            "fatigue": 0,
+            "hits": 300,
+            "hitsMax": 300
+        },
+        "upgrader_612a9b33-506c-411c-b74a-3793ae27b0be": {
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 13,
+                "y": 22,
+                "roomName": "E44S29"
+            },
+            "id": "5e8e7b2c25e317ad48a4eef8",
+            "name": "upgrader_612a9b33-506c-411c-b74a-3793ae27b0be",
+            "body": [
+                {
+                    "type": "work",
+                    "hits": 100
+                },
+                {
+                    "type": "carry",
+                    "hits": 100
+                },
+                {
+                    "type": "move",
+                    "hits": 100
+                }
+            ],
+            "my": true,
+            "owner": {
+                "username": "miffles"
+            },
+            "spawning": false,
+            "ticksToLive": 594,
+            "carryCapacity": 50,
+            "carry": {
+                "energy": 38
+            },
+            "store": {
+                "energy": 38
+            },
+            "fatigue": 0,
+            "hits": 300,
+            "hitsMax": 300
+        },
+        "harvester_df3436fa-c279-4da7-bd31-bb2f2e38b732": {
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 8,
+                "y": 26,
+                "roomName": "E44S29"
+            },
+            "id": "5e8e85f2e49207d4bc89d953",
+            "name": "harvester_df3436fa-c279-4da7-bd31-bb2f2e38b732",
+            "body": [
+                {
+                    "type": "work",
+                    "hits": 100
+                },
+                {
+                    "type": "carry",
+                    "hits": 100
+                },
+                {
+                    "type": "move",
+                    "hits": 100
+                }
+            ],
+            "my": true,
+            "owner": {
+                "username": "miffles"
+            },
+            "spawning": true,
+            "carryCapacity": 50,
+            "carry": {},
+            "store": {},
+            "fatigue": 0,
+            "hits": 300,
+            "hitsMax": 300
+        }
+    },
+    "powerCreeps": {},
+    "spawns": {
+        "Spawn1": {
+            "id": "5e8d1611ea88ab1b74775127",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 8,
+                "y": 26,
+                "roomName": "E44S29"
+            },
+            "name": "Spawn1",
+            "energy": 100,
+            "energyCapacity": 300,
+            "spawning": {
+                "name": "harvester_df3436fa-c279-4da7-bd31-bb2f2e38b732",
+                "needTime": 9,
+                "remainingTime": 3
+            },
+            "store": {
+                "energy": 100
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 5000,
+            "hitsMax": 5000,
+            "structureType": "spawn"
+        }
+    },
+    "structures": {
+        "5bbcaf9a9099fc012e63adde": {
+            "id": "5bbcaf9a9099fc012e63adde",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 16,
+                "y": 20,
+                "roomName": "E44S29"
+            },
+            "ticksToDowngrade": 10000,
+            "level": 2,
+            "progress": 34558,
+            "progressTotal": 45000,
+            "safeModeAvailable": 1,
+            "isPowerEnabled": false,
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 0,
+            "hitsMax": 0,
+            "structureType": "controller"
+        },
+        "5e8d1611ea88ab1b74775127": {
+            "id": "5e8d1611ea88ab1b74775127",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 8,
+                "y": 26,
+                "roomName": "E44S29"
+            },
+            "name": "Spawn1",
+            "energy": 100,
+            "energyCapacity": 300,
+            "spawning": {
+                "name": "harvester_df3436fa-c279-4da7-bd31-bb2f2e38b732",
+                "needTime": 9,
+                "remainingTime": 3
+            },
+            "store": {
+                "energy": 100
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 5000,
+            "hitsMax": 5000,
+            "structureType": "spawn"
+        },
+        "5e8d43ba253a237f4971a720": {
+            "id": "5e8d43ba253a237f4971a720",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 43,
+                "y": 30,
+                "roomName": "E44S29"
+            },
+            "energy": 50,
+            "energyCapacity": 50,
+            "store": {
+                "energy": 50
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 1000,
+            "hitsMax": 1000,
+            "structureType": "extension"
+        },
+        "5e8d4fb5faa37b31069098c2": {
+            "id": "5e8d4fb5faa37b31069098c2",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 44,
+                "y": 30,
+                "roomName": "E44S29"
+            },
+            "energy": 50,
+            "energyCapacity": 50,
+            "store": {
+                "energy": 50
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 1000,
+            "hitsMax": 1000,
+            "structureType": "extension"
+        },
+        "5e8d5c18d03c11e1d37e1861": {
+            "id": "5e8d5c18d03c11e1d37e1861",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 45,
+                "y": 30,
+                "roomName": "E44S29"
+            },
+            "energy": 50,
+            "energyCapacity": 50,
+            "store": {
+                "energy": 50
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 1000,
+            "hitsMax": 1000,
+            "structureType": "extension"
+        },
+        "5e8d69c0c86575e6540de21f": {
+            "id": "5e8d69c0c86575e6540de21f",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 46,
+                "y": 30,
+                "roomName": "E44S29"
+            },
+            "energy": 50,
+            "energyCapacity": 50,
+            "store": {
+                "energy": 50
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 1000,
+            "hitsMax": 1000,
+            "structureType": "extension"
+        },
+        "5e8d76fd091b317d05750161": {
+            "id": "5e8d76fd091b317d05750161",
+            "room": {
+                "name": "E44S29",
+                "energyAvailable": 350,
+                "energyCapacityAvailable": 550,
+                "visual": {
+                    "roomName": "E44S29"
+                }
+            },
+            "pos": {
+                "x": 47,
+                "y": 30,
+                "roomName": "E44S29"
+            },
+            "energy": 50,
+            "energyCapacity": 50,
+            "store": {
+                "energy": 50
+            },
+            "owner": {
+                "username": "miffles"
+            },
+            "my": true,
+            "hits": 1000,
+            "hitsMax": 1000,
+            "structureType": "extension"
+        }
+    },
+    "flags": {},
+    "constructionSites": {},
+    "rooms": {
+        "E44S29": {
+            "name": "E44S29",
+            "energyAvailable": 350,
+            "energyCapacityAvailable": 550,
+            "visual": {
+                "roomName": "E44S29"
+            }
+        }
+    },
+    "time": 17224521,
+    "cpuLimit": 500,
+    "cpu": {
+        "tickLimit": 500,
+        "limit": 20,
+        "bucket": 10000,
+        "shardLimits": {
+            "shard3": 20
+        }
+    },
+    "map": {},
+    "gcl": {
+        "level": 1,
+        "progress": 34758,
+        "progressTotal": 1000000
+    },
+    "gpl": {
+        "level": 0,
+        "progress": 0,
+        "progressTotal": 1000
+    },
+    "market": {
+        "credits": 0,
+        "incomingTransactions": [],
+        "outgoingTransactions": [],
+        "orders": {}
+    },
+    "resources": {
+        "token": 0
+    },
+    "shard": {
+        "name": "shard3",
+        "type": "normal",
+        "ptr": false
+    }
+}

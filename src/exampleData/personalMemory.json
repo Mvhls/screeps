@@ -1,0 +1,14 @@
+{
+    "room": {
+        "creeps": {
+            "name": "some name",
+            "task": "doing something"
+        },
+        "structures": {},
+        "constructionSites": {},
+        "spawns": {},
+        "sources": {
+            
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "creeps": {
+        "harvester_280c4130-b5ba-4d9c-bcfd-a84c1f1a53c4": {
+            "role": "harvester",
+            "upgrade": true,
+            "_move": {
+                "dest": {
+                    "x": 16,
+                    "y": 20,
+                    "room": "E44S29"
+                },
+                "time": 17223710,
+                "path": "14232221",
+                "room": "E44S29"
+            }
+        },
+        "builder_1f47bc41-8376-4f0b-9255-787c9b0897f1": {
+            "role": "builder",
+            "building": false,
+            "upgrading": true,
+            "harvesting": false,
+            "_move": {
+                "dest": {
+                    "x": 16,
+                    "y": 20,
+                    "room": "E44S29"
+                },
+                "time": 17224473,
+                "path": "19227788",
+                "room": "E44S29"
+            }
+        },
+        "upgrader_a9dc2902-30b2-49ae-9d6f-e49df9420305": {
+            "role": "upgrader",
+            "upgrading": true,
+            "_move": {
+                "dest": {
+                    "x": 16,
+                    "y": 20,
+                    "room": "E44S29"
+                },
+                "time": 17224453,
+                "path": "13222232",
+                "room": "E44S29"
+            }
+        },
+        "harvester_dccd3fbf-0c8c-4b18-950a-dc07d3039a9c": {
+            "role": "harvester",
+            "upgrade": true,
+            "_move": {
+                "dest": {
+                    "x": 16,
+                    "y": 20,
+                    "room": "E44S29"
+                },
+                "time": 17223712,
+                "path": "13232222",
+                "room": "E44S29"
+            }
+        },
+        "upgrader_612a9b33-506c-411c-b74a-3793ae27b0be": {
+            "role": "upgrader",
+            "upgrading": false,
+            "_move": {
+                "dest": {
+                    "x": 12,
+                    "y": 29,
+                    "room": "E44S29"
+                },
+                "time": 17224472,
+                "path": "122855",
+                "room": "E44S29"
+            }
+        }
+    }
+}
